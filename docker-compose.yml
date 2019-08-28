@@ -1,0 +1,9 @@
+version: '3'
+services:
+    database:
+        image: store/oracle/database-enterprise:12.2.0.1-slim
+        ports:
+          - 0.0.0.0:32773:1521/tcp
+          - 0.0.0.0:32772:5500/tcp
+        volumes:
+          - ./Oracle_Docker:/Oracle_Docker
