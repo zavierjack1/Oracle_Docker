@@ -1,3 +1,4 @@
+set serveroutput on;
 CREATE OR REPLACE PROCEDURE spHelloWorld
 IS
 BEGIN
